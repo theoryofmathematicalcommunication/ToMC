@@ -16,6 +16,8 @@ const SITE = {
 const MOVIES = [
 	{ title: "Dark City", meta: "Alex Proyas, 1998"},
 	{ title: "They Live", meta: "John Carpenter, 1988"}
+	{ title: "Zizek!", meta: "Astra Taylor, Slavoj Zizek", done: true},
+	{ title: "The Pervert's Guide to Ideology", meta: "Sophie Fiennes, Slavoj Zizek", done: true},
 ];
 
 const ESSAYS = [
