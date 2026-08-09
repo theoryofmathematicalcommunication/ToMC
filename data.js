@@ -35,8 +35,8 @@ const ESSAYS = [
 ];
 
 const BOOKS = [
-	{ title: "Algebraic Geometry and Arithmetic Curves", meta: "Qing Liu"},
+	{ title: "Algebraic Geometry and Arithmetic Curves", meta: "Qing Liu", link: "file:///Users/axeltamir/Downloads/%5BOxford%20graduate%20texts%20in%20mathematics,%206%5D%20Qing%20Liu%20-%20Algebraic%20geometry%20and%20arithmetic%20curves%20(2006,%20Oxford%20University%20Press)%20-%20libgen.li.pdf"},
 	{ title: "Fourier Analysis", meta: "Stein and Shakarchi"},
-	{ title: "Categories and Sheaves", meta: "Kashiwara and Schapira"},
-	{ title: "Introduction to Manifolds", meta: "Loring Tu"}
+	{ title: "Categories and Sheaves", meta: "Kashiwara and Schapira", link: "file:///Users/axeltamir/Downloads/Categories%20and%20Sheaves%20%E2%80%94%20bookmarked-1.pdf"},
+	{ title: "Introduction to Manifolds", meta: "Loring Tu", link: "file:///Users/axeltamir/Downloads/%5BOxford%20graduate%20texts%20in%20mathematics,%206%5D%20Qing%20Liu%20-%20Algebraic%20geometry%20and%20arithmetic%20curves%20(2006,%20Oxford%20University%20Press)%20-%20libgen.li.pdf"},
 ];
