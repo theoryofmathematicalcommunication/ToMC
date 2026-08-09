@@ -21,6 +21,7 @@ const MOVIES = [
 ];
 
 const ESSAYS = [
+	{ title: "Badiou and the French Tradition", meta: "Fredrich Jameson", link: "https://newleftreview.org/issues/ii102/articles/fredric-jameson-badiou-and-the-french-tradition.pdf"},
 	{ title: "Fighting Our Fantasies: Dark City and the Politics of Psychoanalysis", meta: "Todd Mcgowan", note: "In 'Lacan and Contemporary Film'", done: true},
 	{ title: "Woman is One of the Names-of-the-Father, or How Not to Misread Lacan's Formulas of Sexuation", meta: "Slavoj Zizek", link: "https://www.lacan.com/zizwoman.htm"},
 	{ title: "The Big Other doesn't exist", meta: "Slavoj Zizek", link: "https://www.psychomedia.it/jep/number5/zizek.htm"},
