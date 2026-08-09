@@ -36,3 +36,40 @@ Fields:
 3. In `data.js`, add `const ALBUMS = [ ... ];`.
 4. In `render.js`, add `{ href: "albums.html", label: "Albums" },` to the
    `PAGES` array so it appears in the nav on every page.
+
+---
+
+## Building (new)
+
+The HTML files are now **generated**. You still only edit `data.js`; the build
+writes the finished pages with the lists already in them.
+
+```bash
+node build.mjs      # regenerates the 4 pages + sw.js
+```
+
+Run it before every commit. If `data.js` has a typo the build refuses to write
+anything and tells you the line — so a missing comma can no longer reach the
+live site.
+
+Don't hand-edit `index.html`, `movies.html`, `essays.html`, `books.html`, or
+`sw.js`; they're overwritten. Edit `data.js` (content), `style.css` (looks), or
+`build.mjs` (page structure).
+
+### Why it's faster
+
+| Technique | Effect |
+|---|---|
+| Lists pre-rendered into HTML | Text appears on first paint; no JS needed to see content |
+| CSS inlined into `<head>` | No render-blocking stylesheet request |
+| `data.js` / `render.js` no longer fetched | 4 requests down to 1 |
+| Speculation rules | Chrome pre-renders a page while you hover the link |
+| `rel=prefetch` fallback | Same warming for other browsers |
+| Service worker | Repeat visits and back/forward are cache-instant, and work offline |
+
+### Adding a new tab now
+
+1. In `data.js`, add `const ALBUMS = [ ... ];`
+2. In `build.mjs`, destructure `ALBUMS` from `ctx` and add one line to `PAGES`:
+   `{ file: "albums.html", label: "Albums", items: ALBUMS },`
+3. `node build.mjs` — the page and every nav bar update themselves.
