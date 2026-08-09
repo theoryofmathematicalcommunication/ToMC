@@ -22,6 +22,7 @@ const MOVIES = [
 
 const ESSAYS = [
 	{ title: "Fighting Our Fantasies: Dark City and the Politics of Psychoanalysis", meta: "Todd Mcgowan", note: "In 'Lacan and Contemporary Film'", done: true},
+	{ title: "Notes on Dark City", meta: "Axel Tamir", file: "notes-on-dark-city.md", note: "My own, after a second viewing."},
 	{ title: "Woman is One of the Names-of-the-Father, or How Not to Misread Lacan's Formulas of Sexuation", meta: "Slavoj Zizek", link: "https://www.lacan.com/zizwoman.htm"},
 	{ title: "The Big Other doesn't exist", meta: "Slavoj Zizek", link: "https://www.psychomedia.it/jep/number5/zizek.htm"},
 	{ title: "PSYCHOANALYSIS AND POST-MARXISM: The Case of Alain Badiou", meta: "Slavoj Zizek", link: "https://www.lacan.com/zizek-badiou.htm"},
@@ -35,8 +36,8 @@ const ESSAYS = [
 ];
 
 const BOOKS = [
-	{ title: "Algebraic Geometry and Arithmetic Curves", meta: "Qing Liu", link: "file:///Users/axeltamir/Downloads/%5BOxford%20graduate%20texts%20in%20mathematics,%206%5D%20Qing%20Liu%20-%20Algebraic%20geometry%20and%20arithmetic%20curves%20(2006,%20Oxford%20University%20Press)%20-%20libgen.li.pdf"},
-	{ title: "Fourier Analysis", meta: "Stein and Shakarchi"},
-	{ title: "Categories and Sheaves", meta: "Kashiwara and Schapira", link: "file:///Users/axeltamir/Downloads/Categories%20and%20Sheaves%20%E2%80%94%20bookmarked-1.pdf"},
-	{ title: "Introduction to Manifolds", meta: "Loring Tu", link: "file:///Users/axeltamir/Downloads/%5BOxford%20graduate%20texts%20in%20mathematics,%206%5D%20Qing%20Liu%20-%20Algebraic%20geometry%20and%20arithmetic%20curves%20(2006,%20Oxford%20University%20Press)%20-%20libgen.li.pdf"},
+	{ title: "Algebraic Geometry and Arithmetic Curves", meta: "Qing Liu", local: "~/Downloads/[Oxford graduate texts in mathematics, 6] Qing Liu - Algebraic geometry and arithmetic curves (2006, Oxford University Press) - libgen.li.pdf", link: "https://global.oup.com/academic/product/algebraic-geometry-and-arithmetic-curves-9780199202492"},
+	{ title: "Fourier Analysis", meta: "Stein and Shakarchi", link: "https://press.princeton.edu/books/hardcover/9780691113845/fourier-analysis"},
+	{ title: "Categories and Sheaves", meta: "Kashiwara and Schapira", local: "~/Downloads/Categories and Sheaves — Bookmarked.pdf", link: "https://link.springer.com/book/10.1007/3-540-27950-4"},
+	{ title: "Introduction to Manifolds", meta: "Loring Tu", local: "~/Downloads/MATH Books/tu_intro_to_manifolds.pdf", link: "https://link.springer.com/book/10.1007/978-1-4419-7400-6"},
 ];

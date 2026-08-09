@@ -101,3 +101,82 @@ footer {
   color: var(--cream-dim);
   font-size: 0.85rem;
 }
+
+/* ---------- Reader ---------- */
+
+.reader { max-width: 34rem; }
+
+.reader .essay-head {
+  margin-bottom: 2.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.reader h1.essay-title {
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.3;
+  margin: 0 0 0.5rem;
+}
+
+.reader .byline { color: var(--cream-dim); margin: 0; }
+.reader .byline a { color: var(--cream-dim); }
+
+.reader .essay-body { font-size: 1.05rem; line-height: 1.8; }
+.reader .essay-body p { margin: 0 0 1.35rem; }
+.reader .essay-body h2,
+.reader .essay-body h3,
+.reader .essay-body h4 {
+  font-weight: normal;
+  font-style: italic;
+  margin: 2.25rem 0 0.85rem;
+  font-size: 1.15rem;
+}
+.reader .essay-body blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1.1rem;
+  border-left: 2px solid var(--rule);
+  color: var(--cream-dim);
+}
+.reader .essay-body blockquote p:last-child { margin-bottom: 0; }
+.reader .essay-body hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2.25rem 0;
+}
+.reader .essay-body code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.9em;
+}
+.reader .essay-body ul,
+.reader .essay-body ol { padding-left: 1.3rem; margin: 0 0 1.35rem; }
+.reader .essay-body li { margin-bottom: 0.4rem; }
+
+.backlink {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: var(--cream-dim);
+  text-decoration: none;
+}
+.backlink:hover { color: var(--cream); }
+
+/* progress bar — pure CSS, no scroll listener */
+.progress {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(to right, var(--cream) 0 50%, transparent 50%) no-repeat;
+  background-size: 200% 100%;
+  animation: read linear;
+  animation-timeline: scroll(root block);
+  opacity: 0.55;
+  z-index: 10;
+}
+@keyframes read { from { background-position: 100% 0; } to { background-position: 0 0; } }
+
+/* external-link marker in lists */
+.entry-title a[data-ext]::after {
+  content: "\00a0\2197";
+  font-size: 0.8em;
+  opacity: 0.6;
+}
