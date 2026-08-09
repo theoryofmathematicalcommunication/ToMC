@@ -14,10 +14,12 @@ const SITE = {
 /* {title: "", meta: "", note: "", done:true}, */
 
 const MOVIES = [
-	{ title: "Dark City", meta: "Alex Proyas, 1998"}
+	{ title: "Dark City", meta: "Alex Proyas, 1998"},
+	{ title: "They Live", meta: "John Carpenter, 1988"}
 ];
 
 const ESSAYS = [
+	{ title: "Fighting Our Fantasies: Dark City and the Politics of Psychoanalysis", meta: "Todd Mcgowan", note: "In 'Lacan and Contemporary Film"}
 ];
 
 const BOOKS = [
