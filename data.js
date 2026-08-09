@@ -19,8 +19,12 @@ const MOVIES = [
 ];
 
 const ESSAYS = [
-	{ title: "Fighting Our Fantasies: Dark City and the Politics of Psychoanalysis", meta: "Todd Mcgowan", note: "In 'Lacan and Contemporary Film"}
+	{ title: "Fighting Our Fantasies: Dark City and the Politics of Psychoanalysis", meta: "Todd Mcgowan", note: "In 'Lacan and Contemporary Film'"}
 ];
 
 const BOOKS = [
+	{ title: "Algebraic Geometry and Arithmetic Curves", meta: "Qing Liu"},
+	{ title: "Fourier Analysis", meta: "Stein and Shakarchi"},
+	{ title: "Categories and Sheaves", meta: "Kashiwara and Schapira"},
+	{ title: "Introduction to Manifolds", meta: "Loring Tu"}
 ];
