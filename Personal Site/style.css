@@ -1,0 +1,102 @@
+/* Cambridge Texts in the History of Philosophy green */
+:root {
+  --green: #1d5b46;
+  --cream: #f2ece0;
+  --cream-dim: #c9c2b3;
+  --rule: rgba(242, 236, 224, 0.28);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--green);
+  color: var(--cream);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.65;
+  margin: 0;
+  padding: 3rem 1.5rem 5rem;
+}
+
+.page {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+header.masthead {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+header.masthead h1 {
+  font-size: 1.9rem;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.35rem;
+}
+
+header.masthead p.tagline {
+  margin: 0;
+  color: var(--cream-dim);
+  font-style: italic;
+}
+
+nav {
+  margin-bottom: 2.5rem;
+}
+
+nav a {
+  color: var(--cream);
+  text-decoration: none;
+  margin-right: 1.4rem;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+}
+
+nav a:hover { border-bottom-color: var(--cream); }
+nav a.current { border-bottom-color: var(--cream); font-style: italic; }
+
+h2 {
+  font-size: 1.35rem;
+  font-weight: normal;
+  margin: 0 0 1.5rem;
+}
+
+a { color: var(--cream); }
+
+ul.entries {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.entries li {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+ul.entries li:first-child { padding-top: 0; }
+
+.entry-title { font-size: 1.05rem; }
+
+.entry-meta {
+  color: var(--cream-dim);
+  font-size: 0.9rem;
+  margin-top: 0.15rem;
+}
+
+.entry-note {
+  margin-top: 0.4rem;
+  color: var(--cream-dim);
+}
+
+.done .entry-title { text-decoration: line-through; opacity: 0.6; }
+
+footer {
+  margin-top: 3.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  color: var(--cream-dim);
+  font-size: 0.85rem;
+}
