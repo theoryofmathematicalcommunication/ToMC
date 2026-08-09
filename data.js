@@ -22,7 +22,6 @@ const MOVIES = [
 
 const ESSAYS = [
 	{ title: "Fighting Our Fantasies: Dark City and the Politics of Psychoanalysis", meta: "Todd Mcgowan", note: "In 'Lacan and Contemporary Film'", done: true},
-	{ title: "Notes on Dark City", meta: "Axel Tamir", file: "notes-on-dark-city.md", note: "My own, after a second viewing."},
 	{ title: "Woman is One of the Names-of-the-Father, or How Not to Misread Lacan's Formulas of Sexuation", meta: "Slavoj Zizek", link: "https://www.lacan.com/zizwoman.htm"},
 	{ title: "The Big Other doesn't exist", meta: "Slavoj Zizek", link: "https://www.psychomedia.it/jep/number5/zizek.htm"},
 	{ title: "PSYCHOANALYSIS AND POST-MARXISM: The Case of Alain Badiou", meta: "Slavoj Zizek", link: "https://www.lacan.com/zizek-badiou.htm"},
